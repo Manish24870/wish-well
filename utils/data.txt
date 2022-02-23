@@ -1,0 +1,96 @@
+###############################
+Wishes
+###############################
+
+
+{
+    "heading":"Spotify downloader",
+    "desc":"An app to download spotify songs in mp3 format so that it can be played in other external music players"
+}
+
+{
+    "heading":"Football analytics",
+    "desc":"App or a website to view footballer's real time statistics data for their carrer or the particular season"
+}
+
+{
+    "heading":"Public restroom finder",
+    "desc":"An app to find nearby public restrooms in a particular city or state"
+}
+
+{
+    "heading":"Youtube downloader",
+    "desc":"Youtube video downloader that automatically downloads and saves your playlist videos"
+}
+
+{
+    "heading":"Government budget viewer",
+    "desc":"An app where we can view where our government spent the budget and track the progress"
+}
+
+{
+    "heading":"Cricket scoreboard planner",
+    "desc":"An app to edit and plan the scoreboard of local cricket games"
+}
+
+{
+    "heading":"Phone temperature tracker",
+    "desc":"An app to track the phone temperature in real time"
+}
+
+{
+    "heading":"Wedding planner",
+    "desc":"An app where we can plan our wedding by tracking the progress of different wedding services"
+}
+
+{
+    "heading":"Game FPS counter",
+    "desc":"An ap to track the FPS of games so that we can see what frames we get in games"
+}
+
+###############################
+Users
+###############################
+
+{
+    "username":"Manish Acharya",
+    "email":"manish@mail.com",
+    "password":"manish"
+}
+
+{
+    "username":"Mirage",
+    "email":"mirage@mail.com",
+    "password":"mirage"
+}
+
+{
+    "username":"TheBeastHunter",
+    "email":"thebeasthunter@mail.com",
+    "password":"thebeasthunter"
+}
+
+{
+    "username":"Prashant Neupane",
+    "email":"prashant@mail.com",
+    "password":"prashant"
+}
+
+{
+    "username":"Ashim Garbuja",
+    "email":"ashim@mail.com",
+    "password":"ashim"
+}
+
+{
+    "username":"SagarDon",
+    "email":"sagar@mail.com",
+    "password":"sagar"
+}
+
+{
+    "username":"GangLeader",
+    "email":"gangleader@mail.com",
+    "password":"gangleader"
+}
+

@@ -1,0 +1,72 @@
+/* ############################ */
+/* NEW COMMENT FORM */
+/* NEW WISH FORM */
+/* ##################### */
+
+.newcomment_card {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #dddcdc;
+    padding: 15px 56px;
+    margin-bottom: 30px;
+}
+
+.newcomment_heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.newcomment_form_group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.newcomment_input_field {
+    padding: 12px 18px;
+    margin-bottom: 3px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.newcomment_input_field:focus {
+    border: 1px solid #65d688;
+}
+
+/* ####################### */
+/* NEW COMMENT BUTTON */
+.newcomment_submit_btn {
+    border: none;
+    outline: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: #65d688;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.3s;
+    align-self: flex-start;
+    margin-top: 13px;
+}
+
+.newcomment_submit_btn:hover {
+    cursor: pointer;
+    background-color: #55b674;
+}
+
+.newcomment_submit_btn:active {
+    background-color: #65d688;
+}
+
+/* ####################### */
+/* ERROR PARAGRAPH */
+.error_paragraph {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 2px;
+    color: #e63946;
+}

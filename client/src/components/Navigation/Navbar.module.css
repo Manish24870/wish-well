@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #131313;
+}  */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ######################## */
+/* NAVIGATION BAR */
+.nav_bar {
+    width: 70%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+.nav_logo {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.nav_logo span {
+    color: #65d688;
+}
+
+.nav_group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 70px;
+    align-items: center;
+    font-weight: 500;
+    opacity: 95%;
+    font-size: 15px;
+}
+
+.nav_group_1 {
+    list-style: none;
+}
+
+.nav_group_2 {
+    list-style: none;
+}
+
+.nav_item_1 {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav_item_1 a:link,
+.nav_item_1 a:visited {
+    text-decoration: none;
+    color: #131313;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav_item_1 a:hover,
+.nav_item_1 a:active {
+    border-bottom: 2px solid #65d688;
+}
+
+.nav_item_2 {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.nav_item_2 a:link,
+.nav_item_2 a:visited {
+    text-decoration: none;
+    color: #131313;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav_item_2 a:hover,
+.nav_item_2 a:active {
+    border-bottom: 2px solid #65d688;
+}

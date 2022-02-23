@@ -1,0 +1,220 @@
+/* ######################## */
+/* PROFILE EDIT SECTION */
+
+.profile_edit {
+    border: 1px solid #dddcdc;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 26px 60px;
+}
+
+.profile_edit_heading {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* FOR EDITING USERNAME */
+.profile_edit_username {
+    margin-bottom: 30px;
+}
+
+.edit_username_title {
+    margin-bottom: 15px;
+}
+
+.edit_username_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit_username_input {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.edit_username_input:focus {
+    border: 1px solid #65d688;
+}
+
+.edit_username_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #65d688;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.3s;
+    margin-top: 8px;
+    align-self: flex-start;
+}
+
+.edit_username_btn:hover {
+    cursor: pointer;
+    background-color: #55b674;
+}
+
+.edit_username_btn:active {
+    background-color: #65d688;
+}
+
+/* FOR EDITING PASSWORD */
+.profile_edit_password {
+    margin-bottom: 20px;
+}
+
+.edit_password_title {
+    margin-bottom: 15px;
+}
+
+.edit_password_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit_password_input {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.edit_password_input:focus {
+    border: 1px solid #65d688;
+}
+
+.edit_password_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #65d688;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.3s;
+    margin-top: 8px;
+    align-self: flex-start;
+}
+
+.edit_password_btn:hover {
+    cursor: pointer;
+    background-color: #55b674;
+}
+
+.edit_password_btn:active {
+    background-color: #65d688;
+}
+
+/* FOR EDITING PROFILE PICTURE */
+.profile_edit_image {
+    margin-bottom: 20px;
+}
+
+.edit_image_title {
+    margin-bottom: 15px;
+}
+
+.edit_image_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit_image_input {
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    font-size: 15px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+.edit_image_input:focus {
+    border: 1px solid #65d688;
+}
+
+.edit_image_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #65d688;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.3s;
+    margin-top: 8px;
+    align-self: flex-start;
+}
+
+.edit_image_btn:hover {
+    cursor: pointer;
+    background-color: #55b674;
+}
+
+.edit_image_btn:active {
+    background-color: #65d688;
+}
+
+/* ############################ */
+/* DELETE ACCOUNT */
+/* ############################ */
+.account_delete {
+    border: 1px solid #dddcdc;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 30px 45px;
+    margin-bottom: 30px;
+}
+
+.account_delete_heading {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* .account_delete_zone {
+} */
+
+.account_delete_title {
+    margin-bottom: 15px;
+}
+
+/* .account_delete_form {
+} */
+
+.account_delete_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #ff2a5a;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin-top: 8px;
+    align-self: flex-start;
+}
+
+.account_delete_btn:hover {
+    cursor: pointer;
+    background-color: #d30c3a;
+}
+
+.account_delete_btn:active {
+    background-color: #ff2a5a;
+}

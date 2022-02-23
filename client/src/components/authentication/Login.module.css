@@ -1,0 +1,179 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #131313;
+}  */
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ######################## */
+/* MAIN CONTENT */
+
+.main_content {
+    width: 600px;
+    border: 1px solid #dddcdc;
+    margin: 0 auto;
+    margin-top: 140px;
+    border-radius: 4px;
+    padding: 40px 40px;
+}
+
+/* .signin_main {
+} */
+
+.signin_header {
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.signin_info {
+    font-size: 15px;
+}
+
+.signin_form_group {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin_input_field {
+    padding: 18px 26px;
+    margin-top: 24px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s;
+    outline: none;
+    font-weight: 600;
+}
+
+.signin_input_field:focus {
+    border: 1px solid #65d688;
+}
+
+.signin_submit_btn {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    background-color: #65d688;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.signin_submit_btn:hover {
+    cursor: pointer;
+    background-color: #55b674;
+}
+
+.signin_submit_btn:active {
+    background-color: #65d688;
+}
+
+.legal_content {
+    margin-top: 70px;
+}
+
+.legal_content_text {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* CHECKBOX */
+.form_checkbox {
+    /*container*/
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+}
+
+.form_checkbox_input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form_checkbox_checkmark {
+    /*checkmark*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.form_checkbox_span {
+    font-size: 15px;
+    opacity: 90%;
+}
+
+/* On mouse-over, add a grey background color */
+.form_checkbox:hover input ~ .form_checkbox_checkmark {
+    background-color: #65d6894f;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form_checkbox input:checked ~ .form_checkbox_checkmark {
+    background-color: #65d688;
+}
+
+/* Create the form_checkbox_checkmark/indicator (hidden when not checked) */
+.form_checkbox_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the form_checkbox_checkmark when checked */
+.form_checkbox input:checked ~ .form_checkbox_checkmark:after {
+    display: block;
+}
+
+/* Style the form_checkbox_checkmark/indicator */
+.form_checkbox .form_checkbox_checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* ####################### */
+/* ERROR PARAGRAPH */
+.error_paragraph {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 2px;
+    color: #e63946;
+}

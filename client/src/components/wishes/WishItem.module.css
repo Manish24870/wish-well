@@ -1,0 +1,133 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wish_card {
+    /* width: 100%; */
+    border-radius: 4px;
+    border: 1px solid #dddcdc;
+    padding: 30px 56px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.wish_card_header {
+    height: 70px;
+    display: flex;
+}
+
+.header_image {
+    height: 50px;
+    width: 50px;
+}
+
+.header_image_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.header_info {
+    margin-left: 20px;
+}
+
+.header_info_name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header_info_date {
+    opacity: 90%;
+    font-size: 14px;
+}
+
+.wish_card_content {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.card_content_heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card_content_desc {
+    font-size: 16px;
+}
+
+.card_like {
+    display: flex;
+    margin-right: 30px;
+}
+
+.card_like_icon {
+    margin-right: 5px;
+}
+
+.card_like_icon i {
+    font-size: 16px;
+}
+
+.card_like_count p {
+    font-size: 15px;
+    opacity: 80%;
+}
+
+.card_comment {
+    display: flex;
+    margin-right: 30px;
+}
+
+.card_comment_icon {
+    margin-right: 5px;
+}
+
+.card_comment_icon i {
+    font-size: 16px;
+}
+
+.card_comment_count p {
+    font-size: 15px;
+    opacity: 80%;
+}
+
+.card_pocket {
+    display: flex;
+}
+
+.card_pocket_icon {
+    margin-right: 5px;
+}
+
+.card_pocket_icon i {
+    font-size: 16px;
+}
+
+.card_pocket_count p {
+    font-size: 15px;
+    opacity: 80%;
+}
+
+.wish_card_footer {
+    height: 30px;
+    display: flex;
+}
+
+/* ICONS HOVER EFFECTS */
+.card_like_icon:hover {
+    cursor: pointer;
+}
+
+.card_comment_icon:hover {
+    cursor: pointer;
+}
+
+.card_pocket_icon:hover {
+    cursor: pointer;
+}

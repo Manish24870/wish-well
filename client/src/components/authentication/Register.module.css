@@ -1,0 +1,86 @@
+/* ######################## */
+/* MAIN CONTENT */
+
+.main_content {
+    width: 600px;
+    border: 1px solid #dddcdc;
+    margin: 0 auto;
+    margin-top: 140px;
+    border-radius: 4px;
+    padding: 40px 40px;
+}
+
+/* .register_main {
+} */
+
+.register_header {
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 22px;
+}
+
+.register_info {
+    font-size: 15px;
+}
+
+.register_form_group {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_input_field {
+    padding: 18px 26px;
+    margin-top: 24px;
+    border: 1px solid #dddcdc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: all 0.3s;
+    outline: none;
+    font-weight: 600;
+}
+
+.register_input_field:focus {
+    border: 1px solid #65d688;
+}
+
+.register_submit_btn {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    background-color: #65d688;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    transition: all 0.3s;
+    margin-top: 20px;
+}
+
+.register_submit_btn:hover {
+    cursor: pointer;
+    background-color: #55b674;
+}
+
+.register_submit_btn:active {
+    background-color: #65d688;
+}
+
+.legal_content {
+    margin-top: 70px;
+}
+
+.legal_content_text {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ####################### */
+/* ERROR PARAGRAPH */
+.error_paragraph {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 2px;
+    color: #e63946;
+}

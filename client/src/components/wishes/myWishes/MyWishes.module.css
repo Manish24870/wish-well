@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* ############################## */
+/* MAIN CONTENT */
+/* ############################## */
+.main_content {
+    margin: 0 auto;
+    width: 55%;
+    margin-top: 90px;
+}
+
+.main_content_header {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,59 @@
+.acomment_card {
+    background-color: #f3f2f2;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+.acomment_card_header {
+    display: flex;
+    align-items: center;
+}
+
+.acomment_header_image {
+    height: 40px;
+    width: 40px;
+}
+
+.acomment_header_image_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.acomment_header_info {
+    margin-left: 20px;
+}
+
+.acomment_header_info_name {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.acomment_header_info_date {
+    opacity: 90%;
+    font-size: 13px;
+}
+
+.acomment_header_delete {
+    align-self: flex-start;
+    margin-left: auto;
+}
+
+.acomment_header_delete:hover {
+    cursor: pointer;
+}
+
+.acomment_header_delete p {
+    color: #e63946;
+}
+
+.acomment_card_content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.acomment_card_content_desc {
+    font-size: 15px;
+}
